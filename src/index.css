@@ -1,0 +1,113 @@
+body {
+  font-family: Georgia, serif;
+  background-color: rgb(196, 151, 91);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  color: #562e00;
+}
+
+.navBar{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin: 5px;
+  background-color: #f8dbad;
+  border: 1px solid #9e5400;
+  border-radius: 8px;
+  box-shadow: rgba(255, 209, 169, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #9e5400;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  width: 100px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.book-item {
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  margin-bottom: 20px; 
+  text-align: center;
+  background-color: #9e540088;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.book-item:hover{
+  background-color: #6a270075;
+}
+
+.book-item img {
+  width: 90%; 
+  height: auto; 
+}
+
+.registration-form{
+  display: block;
+  padding: 10px;
+}
+
+.registration-form input {
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  background-color: bisque;
+}
+
+.searchBar {
+  background-color: bisque;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 300px;
+}
+
+#signUpForm{
+  display: block;
+  padding: 10px;
+}
+
+#signUpForm input {
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  background-color: bisque;
+}
+
+.bookCover {
+  width: 200px;
+}
+
+form {
+  background-color: #6a27002c;
+  border-radius: 10px;
+}
+
+.singleBookContainer {
+  background-color: #6a27002c;
+  border-radius: 10px;
+}
